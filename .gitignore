@@ -1,0 +1,30 @@
+# editors
+.idea/
+.vscode/
+
+# Python
+*.egg-info/
+.pytest_cache/
+__pycache__
+.cache/
+venv*/
+*/__pycache__/*
+*.egg*
+
+# data
+data/
+crowd_nav/data/
+videos/
+*.log
+crowd_nav/log.txt
+build/
+devel/
+.catkin_workspace
+
+crowd_nav/wandb/
+crowd_nav/Python-RVO2/
+crowd_nav/log.txt
+
+crowd_nav/wandb/
+crowd_nav/Python-RVO2/
+crowd_nav/log.txt
