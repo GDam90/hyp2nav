@@ -39,7 +39,7 @@ inside the crowd_nav/ folder.
 
 1. Train a policy.
 ```
-python train.py --policy tree-search-rl --output_dir data/model_name/ --config configs/icra_benchmark/ts_HVNet_Hypercuriosity.py --gpu --wandb_mode online --wandb_name name_of_the_run --embedding_dimension=[2,128]
+python train.py --policy tree-search-rl --output_dir data/model_name/ --config configs/icra_benchmark/ts_HVNet_Hypercuriosity.py --gpu --wandb_mode online --wandb_name name_of_the_run --embedding_dimension=[2,128] --hyperbolic
 ```
 
 2. Test policies with 1000 test cases.
