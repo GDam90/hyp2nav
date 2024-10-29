@@ -32,6 +32,7 @@ Autonomous robots are increasingly becoming a strong fixture in social environme
 - pip install 'socialforce[test,plot]'
 3. Install crowd_sim and crowd_nav into pip
 `pip install -e .`
+4. pip install geoopt wandb
 
 ## Getting Started
 This repository are organized in two parts: crowd_sim/ folder contains the simulation environment and crowd_nav/ folder contains codes for training and testing the policies. Details of the simulation framework can be found [here](crowd_sim/README.md). Below are the instructions for training and testing policies, and they should be executed
